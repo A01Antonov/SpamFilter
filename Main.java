@@ -12,8 +12,8 @@ public class Main {
     private static Stat stat = new Stat();
 
     public static void main(String[] args) throws IOException {
-        String spamPath = "C:\\Users\\anton\\IdeaProjects\\SpamFilter\\training-set\\spam-training-set.txt";
-        String hamPath = "C:\\Users\\anton\\IdeaProjects\\SpamFilter\\training-set\\ham-training-set.txt";
+        String spamPath = "spam-training-set.txt"; //spam training set
+        String hamPath = "ham-training-set.txt"; //ham training set
         String inputPath = "input.txt";
         String outputPath = "output.txt";
 
